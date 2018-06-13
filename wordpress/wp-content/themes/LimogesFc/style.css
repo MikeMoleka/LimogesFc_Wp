@@ -5,6 +5,7 @@ Author URI: https://www.facebook.com/mmoleka
 Description: Limoges Fc theme WordPress
 Version: 1.0
 */
+
 .text-publication{
     color: red;
 }
@@ -17,7 +18,6 @@ Version: 1.0
 }
 .flag-page{
     background-color: rgb(255,0,0, 0.7);
-    height: 200px;
 }
 a.a-page:link{
     text-decoration: none;/*Pour que le lien ne soit plus "souligné"...*/
@@ -50,6 +50,7 @@ a.a-page:link{
 footer{
     color: white;
     background-color: #151E2D;
+    /* background-color: #EA2027; */
     padding-top: 2%;
     padding-bottom: 5%;
 }
@@ -63,6 +64,7 @@ footer a{
     height: 2em;
     text-align: center;
     display: inline-block;
+    padding-top: 3px;
 }
 
 .fa{

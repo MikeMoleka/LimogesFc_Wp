@@ -82,52 +82,10 @@
 
         add_action( 'loop_start', 'shortcode_before_entry' );
 
-
-
-
-        //
-        // function twentyfifteen_widgets_init() {
-        // 	register_sidebar( array(
-        // 		'name'          => __( 'Widget Area', 'twentyfifteen' ),
-        // 		'id'            => 'sidebar-1',
-        // 		'description'   => __( 'Add widgets here to appear in your sidebar.', 'twentyfifteen' ),
-        // 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-        // 		'after_widget'  => '</aside>',
-        // 		'before_title'  => '<h2 class="widget-title">',
-        // 		'after_title'   => '</h2>',
-        // 	) );
-        // }
-        // add_action( 'widgets_init', 'twentyfifteen_widgets_init' );
-
-
         /*fonction qui permet de recuperer le titre de la page **********/
 
     }
     add_action('after_setup_theme', 'limogesFc_setup');
-
-    if ( function_exists('register_sidebar') )
-        register_sidebar();
-        
-    function header_widgets_init() {
-        register_sidebar( array(
-
-            'name' => 'Ma nouvelle zone de widget',
-            'id' => 'new-widget-area',
-            'before_widget' => '<div class="nwa-widget">',
-            'after_widget' => '</div>',
-            'before_title' => '<h2 class="nwa-title">',
-            'after_title' => '</h2>',
-        ) );
-    }
-    add_action( 'widgets_init', 'header_widgets_init' );
-
-    function wpsites_before_post_widget( $content ) {
-        if ( is_singular( array( 'post', 'page' ) ) && is_active_sidebar( 'before-post' ) && is_main_query() ) {
-            dynamic_sidebar('before-post');
-        }
-        return $content;
-    }
-    add_filter( 'the_content', 'wpsites_before_post_widget' );
 
 
 

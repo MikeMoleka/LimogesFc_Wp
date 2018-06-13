@@ -1,49 +1,8 @@
         <footer class="container-fluid text-center">
-            <div class="container border-top border-danger">
-                <!-- <div class="row">
+            <div class="container">
+                <div class="row">
                     <div class="col-xs-12 col-md-4 col-lg-4">
-                        <ul>
-                            <a href="#">
-                                <li>Mention Légales</li>
-                                <li>Live Match</li>
-                                <li>Newsletter</li>
-                                <li>Contacts</li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        <ul>
-                            <a href="#">
-                                <li>Programme Football TV</li>
-                                <li>Galerie</li>
-                                <li>Plan du site</li>
-                                <li>Localistaion</li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        <ul>
-                            <a href="#">
-                                <li>National 2</li>
-                                <li>Billeterie</li>
-                                <li>Boutique</li>
-                                <li>Match Live</li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-md-4 col-lg-4">
-                        <ul>
-                            <a href="#">
-                                <li>Presse</li>
-                                <li>Videos</li>
-                                <li>Matc</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div> -->
-                <div class="padding-top">
-                    <div class="row col-xs-12 col-md-4 col-lg-4 padding-top">
-                        <h6 class="">Nous contacter</h6>
+                        <h6>Nous contacter</h6>
                         <ul>
                             <li>Tél : 05 55 06 33 74</li>
                             <li>Mail : secretariat@limogesfc.fr</li>
@@ -69,7 +28,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 border-bottom border-danger">
                         <p>© Site officiel du LIMOGES FOOTBALL CLUB. Tous droits réservés. 2017-2018 DMCréation</p>
                     </div>
                 </div>
